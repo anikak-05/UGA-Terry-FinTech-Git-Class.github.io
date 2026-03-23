@@ -1,4 +1,4 @@
-# UGA-Terry-FinTech-Class-Fall-2025.github.io
+# UGA-Terry-FinTech-Git-Class.github.io
 
 This is the class website and dynamic roster, which is intended to introduce students to:
 
