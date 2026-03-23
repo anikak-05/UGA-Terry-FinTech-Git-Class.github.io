@@ -17,44 +17,38 @@
     .student h3 { margin: 0 0 .5rem 0; font-size: 1.05rem; }
     .pill { display: inline-block; padding: .15rem .5rem; border-radius: 999px; border: 1px solid #ddd; font-size: .85rem; margin-right: .25rem; }
     .hero {
+      position: relative;
       border-radius: 12px;
       overflow: hidden;
-      filter: brightness(0.6);
       height: auto;
     }
-    
     .hero img {
       width: 100%;
       height: auto;
-      object-fit: unset;
+      display: block;
+      filter: brightness(0.6);
     }
-
     .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 2rem;
-    transform: translateY(-50%);
-    color: white;
+      position: absolute;
+      top: 50%;
+      left: 2rem;
+      transform: translateY(-50%);
+      color: white;
     }
-
     .student {
     transition: all 0.2s ease;
     }
-
     .student:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
-
     :root {
     --uga-red: #BA0C2F;
     --uga-black: #000;
     }
-
     h1, h2 {
     color: var(--uga-black);
     }
-
     a {
     color: var(--uga-red);
     }
@@ -62,7 +56,6 @@
   opacity: 0;
   animation: fadeIn 0.4s ease forwards;
   }
-  
   @keyframes fadeIn {
     to { opacity: 1; }
   }
